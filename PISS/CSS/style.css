@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+nav{
+    float: right;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.slogan {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.slogan h1 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.propostas, .objetivo {
+    background-color: #4CAF50;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    width: 45%;
+}
+
+.propostas h2, .objetivo h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.propostas ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.propostas ul li {
+    margin-bottom: 10px;
+}
+
