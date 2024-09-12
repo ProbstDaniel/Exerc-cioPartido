@@ -3,32 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* .tudo{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #dbdbdb;
+}
+    */
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #dbdbdb;
     color: #333;
+    height: 100%;
+    width: 100%;
 }
 
 header {
-    background-color: #4CAF50;
-    padding: 20px 0;
+    background-color: #28a745;
+    padding: 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    height: 120px;
+    border: solid 2px #000000;
+    border-left: none;
+    border-right: none;
+    font-size: 21px;
 }
 
-.logo img {
-    width: 50px;
+.Logo img{
+    width: 160px;
+    height: 160px;
+    float: left ;
+}
+.MenuBranco{
+    width: 80px;
+    height: 80px;
+    margin:32px 0 ;
+}
+
+.Menu{
+    height: 150px;
+    width: 150px;
 }
 nav{
     float: right;
+    color: #dbdbdb;
+    text-decoration: none;
+    font-weight: bold;
 }
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 60px;
 }
 
 nav ul li {
@@ -43,44 +72,94 @@ nav ul li a {
 
 main {
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #dbdbdb;
+
 }
 
-.slogan {
-    text-align: center;
+.Slogan {
+    text-align: left;
     margin: 20px 0;
 }
 
-.slogan h1 {
-    font-size: 24px;
-    color: #4CAF50;
+.TxtSlogan {
+    font-size: 28px;
+    color: #000000;
+    margin-left: 80px;
 }
 
-.content {
+.Container {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    margin: 10px 15px 0 80px;
 }
 
-.propostas, .objetivo {
-    background-color: #4CAF50;
-    padding: 20px;
+.Propostas, .Objetivos {
+    background-color: #28a745;
+    padding: 20px 20px 20px 20px;
     border-radius: 5px;
     color: white;
-    width: 45%;
+    width: 560px;
+    height:400px ;
+    
 }
 
-.propostas h2, .objetivo h2 {
-    font-size: 20px;
+.Objetivos{
+    font-size: 18px;
+    margin-left: 300px;
+    background-color: #1c6b3d;
+}
+.Propostas{
+    font-size: 18px;
+}
+
+.Propostas h2, .Objetivos h2 {
+    font-size: 23px;
     margin-bottom: 10px;
 }
 
-.propostas ul {
+.Propostas ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-.propostas ul li {
+.Propostas ul li {
     margin-bottom: 10px;
+}
+.SegPag{
+    width: 100%;
+    height:900px ;
+    background-color:#dbdbdb;
+}
+.LogoTxt{
+    width: 300px;
+    height: 300px;
+    margin: 0 650px
+}
+.Lula, .Bolso{
+    
+    height: 190px;
+    width: 290px;
+}
+.TxtImagem{
+    display: flex;
+}
+.H1Lula, .H1Bolso{
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+.H1Lula{
+    margin-left: 100px;
+}
+.H1Bolso{
+    margin-left: 500px;
+}
+.Bolso{
+    margin-left: 500px;
+   
+}
+.Lula{
+    margin-left: 100px;
+}
+.Seg{
+    margin-left: 100px;
 }
 
